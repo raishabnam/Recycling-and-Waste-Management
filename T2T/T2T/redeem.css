@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page Container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #008000;
+}
+
+/* Form */
+form {
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #008000;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #008000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #006400;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #0000EE; /* Change the color to your desired link color */
+  text-decoration: underline;
+  cursor: pointer;
+}
